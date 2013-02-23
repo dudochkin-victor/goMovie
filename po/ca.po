@@ -1,0 +1,156 @@
+# Catalan translation for gomovie
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the gomovie package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gomovie\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-08-15 23:19-0500\n"
+"PO-Revision-Date: 2012-08-20 09:28+0000\n"
+"Last-Translator: Alfredo Hernández <Unknown>\n"
+"Language-Team: Catalan <ca@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-08-28 09:07+0000\n"
+"X-Generator: Launchpad (build 15864)\n"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:102
+msgid "No videos are open"
+msgstr "No hi ha cap vídeo obert"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:102
+msgid "Select a source to begin playing"
+msgstr "Seleccioneu una font per començar a reproduir"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:103
+msgid "Open file"
+msgstr "Obre un fitxer"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:103
+msgid "Open a saved file."
+msgstr "Obre un fitxer desat."
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:109
+msgid "Resume last video"
+msgstr "Reprèn el darrer vídeo"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:112
+msgid "Play from Disc"
+msgstr "Reprodueix des d'un disc"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:112
+msgid "Watch a DVD or open a file from disc"
+msgstr "Ves un DVD o obre un fitxer des d'un disc"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:135
+msgid "Play"
+msgstr "Reprodueix"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:136
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:658
+msgid "Open"
+msgstr "Obre"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:137
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:138
+msgid "Leave Fullscreen"
+msgstr "Surt de la pantalla completa"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:199
+msgid "Open location"
+msgstr "Obre una ubicació"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:208
+msgid "Choose location"
+msgstr "Tria una ubicació"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:249
+msgid "Error"
+msgstr "S'ha produït un error"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:259
+msgid "Oops! gomovie can't play this file!"
+msgstr "L'gomovie no pot reproduir aquest fitxer."
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:286
+msgid ""
+"Some media files need extra software to be played. gomovie can install this "
+"software automatically."
+msgstr ""
+"Alguns fitxers multimèdia necessiten programari adicional per ser "
+"reproduïts. L'gomovie pot instal·lar aquest programari automàticament."
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:292
+#, c-format
+msgid "gomovie needs %s to play this file."
+msgstr "L'gomovie necessita %s per reproduir aquest fitxer."
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:295
+msgid "Don't install"
+msgstr "No l'instal·lis"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:296
+msgid "Install"
+msgstr "Instal·la'l"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:472
+msgid "Add from Harddrive"
+msgstr "Afegeix des del disc dur"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:474
+msgid "Play a DVD"
+msgstr "Reprodueix un DVD"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:476
+msgid "Network File"
+msgstr "Fitxer de la xarxa"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:664
+msgid "All files"
+msgstr "Tots els fitxers"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:668
+msgid "Video files"
+msgstr "Fitxers de vídeo"
+
+#: /home/codygarver/gomovie/po/../gomovie/desktop-launcher.vala:5
+msgid "Play your media"
+msgstr "Reproduïu els vostres elements multimèdia"
+
+#: /home/codygarver/gomovie/po/../gomovie/desktop-launcher.vala:6
+msgid "Media Player"
+msgstr "Reproductor multimèdia"
+
+#: /home/codygarver/gomovie/po/../gomovie/Widgets/TagView.vala:54
+msgid "Language"
+msgstr "Idioma"
+
+#: /home/codygarver/gomovie/po/../gomovie/Widgets/TagView.vala:55
+msgid "Subtitles"
+msgstr "Subtítols"
+
+#: /home/codygarver/gomovie/po/../gomovie/Widgets/TagView.vala:94
+msgid "Playlist"
+msgstr "Llista de reproducció"
+
+#: /home/codygarver/gomovie/po/../gomovie/Widgets/TagView.vala:95
+msgid "Options"
+msgstr "Opcions"
+
+#: /home/codygarver/gomovie/po/../gomovie/Widgets/TagView.vala:97
+msgid "Details"
+msgstr "Detalls"
+
+#: /home/codygarver/gomovie/po/../gomovie/Widgets/TagView.vala:218
+msgid "Default"
+msgstr "Predeterminat"
+
+#: /home/codygarver/gomovie/po/../gomovie/Widgets/TagView.vala:231
+msgid "None"
+msgstr "Cap"

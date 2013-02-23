@@ -1,7 +1,7 @@
 goMovie
 =======
 
-Movie creation studio
+Medai creation studio
 
 Why
 ===

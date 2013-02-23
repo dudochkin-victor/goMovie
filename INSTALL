@@ -1,0 +1,17 @@
+                               Compile and Run                                    
+--------------------------------------------------------------------------------
+
+• Build and run gomovie
+
+  If you don't have the source yet:
+  git clone git@github.com
+  cd gomovie
+  mkdir build; cd build
+  cmake .. -DCMAKE_INSTALL_PREFIX=/usr
+  make
+  ./gomovie
+
+• Bugs
+
+
+

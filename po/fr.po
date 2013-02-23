@@ -1,0 +1,156 @@
+# French translation for gomovie
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the gomovie package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gomovie\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-08-15 23:19-0500\n"
+"PO-Revision-Date: 2012-09-03 15:32+0000\n"
+"Last-Translator: Corentin Noël <tintou@mailoo.org>\n"
+"Language-Team: French <fr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-09-04 05:07+0000\n"
+"X-Generator: Launchpad (build 15890)\n"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:102
+msgid "No videos are open"
+msgstr "Aucune vidéo n'est ouverte"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:102
+msgid "Select a source to begin playing"
+msgstr "Sélectionnez une source pour commencer la lecture"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:103
+msgid "Open file"
+msgstr "Ouvrir un fichier"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:103
+msgid "Open a saved file."
+msgstr "Ouvrir un fichier sauvegardé."
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:109
+msgid "Resume last video"
+msgstr "Reprendre la lecture de la dernière vidéo"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:112
+msgid "Play from Disc"
+msgstr "Lire le disque"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:112
+msgid "Watch a DVD or open a file from disc"
+msgstr "Regarder un DVD ou ouvrir un fichier sur le disque"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:135
+msgid "Play"
+msgstr "Lire"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:136
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:658
+msgid "Open"
+msgstr "Ouvrir"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:137
+msgid "Sidebar"
+msgstr "Barre latérale"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:138
+msgid "Leave Fullscreen"
+msgstr "Quitter le plein écran"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:199
+msgid "Open location"
+msgstr "Ouvrir l'emplacement"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:208
+msgid "Choose location"
+msgstr "Choisir l'emplacement"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:249
+msgid "Error"
+msgstr "Erreur"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:259
+msgid "Oops! gomovie can't play this file!"
+msgstr "Oups ! gomovie semble ne pas pouvoir lire ce fichier !"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:286
+msgid ""
+"Some media files need extra software to be played. gomovie can install this "
+"software automatically."
+msgstr ""
+"Certains médias nécessitent des logiciels supplémentaires pour être lus. "
+"gomovie peut installer ces logiciels automatiquement."
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:292
+#, c-format
+msgid "gomovie needs %s to play this file."
+msgstr "gomovie à besoin de %s pour lire ce fichier."
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:295
+msgid "Don't install"
+msgstr "Ne pas installer"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:296
+msgid "Install"
+msgstr "Installer"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:472
+msgid "Add from Harddrive"
+msgstr "Ajouter à partir du disque-dur"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:474
+msgid "Play a DVD"
+msgstr "Lire un DVD"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:476
+msgid "Network File"
+msgstr "Fichier sur le réseau"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:664
+msgid "All files"
+msgstr "Tous les fichiers"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:668
+msgid "Video files"
+msgstr "Fichiers vidéo"
+
+#: /home/codygarver/gomovie/po/../gomovie/desktop-launcher.vala:5
+msgid "Play your media"
+msgstr "Lisez votre média"
+
+#: /home/codygarver/gomovie/po/../gomovie/desktop-launcher.vala:6
+msgid "Media Player"
+msgstr "Lecteur multimédia"
+
+#: /home/codygarver/gomovie/po/../gomovie/Widgets/TagView.vala:54
+msgid "Language"
+msgstr "Langue"
+
+#: /home/codygarver/gomovie/po/../gomovie/Widgets/TagView.vala:55
+msgid "Subtitles"
+msgstr "Sous-titres"
+
+#: /home/codygarver/gomovie/po/../gomovie/Widgets/TagView.vala:94
+msgid "Playlist"
+msgstr "Liste de lecture"
+
+#: /home/codygarver/gomovie/po/../gomovie/Widgets/TagView.vala:95
+msgid "Options"
+msgstr "Paramètres"
+
+#: /home/codygarver/gomovie/po/../gomovie/Widgets/TagView.vala:97
+msgid "Details"
+msgstr "Détails"
+
+#: /home/codygarver/gomovie/po/../gomovie/Widgets/TagView.vala:218
+msgid "Default"
+msgstr "Par défaut"
+
+#: /home/codygarver/gomovie/po/../gomovie/Widgets/TagView.vala:231
+msgid "None"
+msgstr "Aucun"

@@ -1,0 +1,157 @@
+# Finnish translation for gomovie
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the gomovie package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gomovie\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-08-15 23:19-0500\n"
+"PO-Revision-Date: 2012-09-17 16:15+0000\n"
+"Last-Translator: Jiri Grönroos <Unknown>\n"
+"Language-Team: Finnish <fi@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-09-18 05:30+0000\n"
+"X-Generator: Launchpad (build 15966)\n"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:102
+msgid "No videos are open"
+msgstr "Ei avoinna olevia videoita"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:102
+msgid "Select a source to begin playing"
+msgstr "Aloita toisto valitsemalla lähde"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:103
+msgid "Open file"
+msgstr "Avaa tiedosto"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:103
+msgid "Open a saved file."
+msgstr "Avaa tallennettu tiedosto."
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:109
+msgid "Resume last video"
+msgstr "Jatka viimeisintä videota"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:112
+msgid "Play from Disc"
+msgstr "Toista levyltä"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:112
+msgid "Watch a DVD or open a file from disc"
+msgstr "Katso DVD tai tiedosto levyltä"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:135
+msgid "Play"
+msgstr "Toista"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:136
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:658
+msgid "Open"
+msgstr "Avaa"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:137
+msgid "Sidebar"
+msgstr "Sivupalkki"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:138
+msgid "Leave Fullscreen"
+msgstr "Poistu koko näytön tilasta"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:199
+msgid "Open location"
+msgstr "Avaa sijainti"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:208
+msgid "Choose location"
+msgstr "Valitse sijainti"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:249
+msgid "Error"
+msgstr "Virhe"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:259
+msgid "Oops! gomovie can't play this file!"
+msgstr "Valitettavasti gomovie ei voi toistaa tätä tiedostoa."
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:286
+msgid ""
+"Some media files need extra software to be played. gomovie can install this "
+"software automatically."
+msgstr ""
+"Jotkin mediatiedostot tarvitsevat ylimääräisiä ohjelmistoja, jotta kyseiset "
+"tiedostot on mahdollista toistaa. gomovie voi asentaa tarvittavat "
+"ohjelmistot automaattisesti."
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:292
+#, c-format
+msgid "gomovie needs %s to play this file."
+msgstr "%s tarvitaan tämän tiedoston toistamiseksi."
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:295
+msgid "Don't install"
+msgstr "Älä asenna"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:296
+msgid "Install"
+msgstr "Asenna"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:472
+msgid "Add from Harddrive"
+msgstr "Lisää kiintolevyltä"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:474
+msgid "Play a DVD"
+msgstr "Toista DVD"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:476
+msgid "Network File"
+msgstr "Verkkotiedosto"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:664
+msgid "All files"
+msgstr "Kaikki tiedostot"
+
+#: /home/codygarver/gomovie/po/../gomovie/gomovie.vala:668
+msgid "Video files"
+msgstr "Videotiedostot"
+
+#: /home/codygarver/gomovie/po/../gomovie/desktop-launcher.vala:5
+msgid "Play your media"
+msgstr "Toista eri medioita"
+
+#: /home/codygarver/gomovie/po/../gomovie/desktop-launcher.vala:6
+msgid "Media Player"
+msgstr "Mediasoitin"
+
+#: /home/codygarver/gomovie/po/../gomovie/Widgets/TagView.vala:54
+msgid "Language"
+msgstr "Kieli"
+
+#: /home/codygarver/gomovie/po/../gomovie/Widgets/TagView.vala:55
+msgid "Subtitles"
+msgstr "Tekstitys"
+
+#: /home/codygarver/gomovie/po/../gomovie/Widgets/TagView.vala:94
+msgid "Playlist"
+msgstr "Soittolista"
+
+#: /home/codygarver/gomovie/po/../gomovie/Widgets/TagView.vala:95
+msgid "Options"
+msgstr "Valinnat"
+
+#: /home/codygarver/gomovie/po/../gomovie/Widgets/TagView.vala:97
+msgid "Details"
+msgstr "Tiedot"
+
+#: /home/codygarver/gomovie/po/../gomovie/Widgets/TagView.vala:218
+msgid "Default"
+msgstr "Oletus"
+
+#: /home/codygarver/gomovie/po/../gomovie/Widgets/TagView.vala:231
+msgid "None"
+msgstr "Ei mitään"
