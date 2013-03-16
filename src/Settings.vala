@@ -14,8 +14,7 @@ namespace gomovie {
         public bool show_window_decoration {get; set;}
 
         public Settings () {
-            //base ("org.gomovie");
-            base ("org.pantheon.Audience");
+            base ("org.gomovie");
         }
 
     }
