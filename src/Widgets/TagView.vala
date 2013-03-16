@@ -164,16 +164,26 @@ namespace gomovie.Widgets{
         }
 
         public void expand (){
-            var x2 = this.get_stage ().width - this.width + 10;
-            this.animate (Clutter.AnimationMode.EASE_OUT_QUAD, 400, x:x2);
-            this.animate (Clutter.AnimationMode.EASE_OUT_QUAD, 400, opacity:255);
+            var x2 = this.get_stage ().width - this.width + 15;
+            this.save_easing_state();
+        	this.set_easing_duration(400);
+        	this.set_easing_mode(Clutter.AnimationMode.EASE_OUT_QUAD);
+        	this.set_x(x2);
+        	this.set_opacity(255);
+        	this.restore_easing_state();
+            
             this.expanded = true;
         }
 
         public void collapse (){
             var x2 = this.get_stage ().width;
-            this.animate (Clutter.AnimationMode.EASE_OUT_QUAD, 400, x:x2);
-            this.animate (Clutter.AnimationMode.EASE_OUT_QUAD, 400, opacity:0);
+            this.save_easing_state();
+        	this.set_easing_duration(400);
+        	this.set_easing_mode(Clutter.AnimationMode.EASE_OUT_QUAD);
+        	this.set_x(x2);
+        	this.set_opacity(0);
+        	this.restore_easing_state();
+        	
             this.expanded = false;
         }
 

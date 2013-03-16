@@ -13,4 +13,4 @@ Changelog
 ========
 
 * Added ebuild for gentoo
-* Compilation fixes for clutter-1.0
+* More clean compilation for clutter-1.0 

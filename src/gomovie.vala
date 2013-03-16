@@ -117,7 +117,7 @@ namespace gomovie {
             this.canvas.width    = 624;
             this.canvas.height   = 352;
 
-            this.controls.y = Gdk.Screen.get_default ().height (); //place it somewhere low
+            this.controls.y = Gdk.Screen.height (); //place it somewhere low
 
             stage.add_child (canvas);
             stage.add_child (tagview);
@@ -784,7 +784,7 @@ namespace gomovie {
                 this.fullscreened = true;
                 this.panel.toggle (true);
 
-                stage.height = Gdk.Screen.get_default ().height ();
+                stage.height = Gdk.Screen.height ();
                 this.place ();
             }
         }
@@ -876,8 +876,8 @@ namespace gomovie {
             this.controls.y = (this.controls.hidden)?stage.height:stage.height - controls.height;
 
             if (this.fullscreened) {
-                this.controls.y = (this.controls.hidden)?Gdk.Screen.get_default ().height ():
-                                       Gdk.Screen.get_default ().height () - CONTROLS_HEIGHT;
+                this.controls.y = (this.controls.hidden)?Gdk.Screen.height ():
+                                       Gdk.Screen.height () - CONTROLS_HEIGHT;
             } else if (stage.height - CONTROLS_HEIGHT > 50)
                 this.controls.y = stage.height - CONTROLS_HEIGHT;
         }
@@ -901,14 +901,14 @@ namespace gomovie {
             ung.max_aspect = 99999999.0;
             this.set_geometry_hints (this, ung, Gdk.WindowHints.ASPECT);
 
-            if (Gdk.Screen.get_default ().width ()  > this.video_w &&
-                Gdk.Screen.get_default ().height () > this.video_h) {
+            if (Gdk.Screen.width ()  > this.video_w &&
+                Gdk.Screen.height () > this.video_h) {
                 this.resize (
                     (int)this.video_w, (int)this.video_h);
             } else {
                 this.resize (
-                    (int)(Gdk.Screen.get_default ().width () * 0.9),
-                    (int)(Gdk.Screen.get_default ().height () * 0.9));
+                    (int)(Gdk.Screen.width () * 0.9),
+                    (int)(Gdk.Screen.height () * 0.9));
             }
 
             if (settings.keep_aspect) {

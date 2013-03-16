@@ -27,13 +27,21 @@ namespace gomovie.Widgets{
             get { return _hidden; }
             set {
                 if (_hidden && !value){
-                    float y2 = (app.fullscreened)?Gdk.Screen.get_default ().height ()-CONTROLS_HEIGHT:
+                    float y2 = (app.fullscreened)?Gdk.Screen.height ()-CONTROLS_HEIGHT:
                                                   this.get_stage ().height - CONTROLS_HEIGHT;
-                    this.animate (Clutter.AnimationMode.EASE_OUT_QUAD, 400, y:y2);
+                    this.save_easing_state();
+		        	this.set_easing_duration(400);
+		        	this.set_easing_mode(Clutter.AnimationMode.EASE_OUT_QUAD);
+		        	this.set_y(y2);
+		        	this.restore_easing_state();
                 }else if (!_hidden && value){
-                    float y2 = (app.fullscreened)?Gdk.Screen.get_default ().height ():
+                    float y2 = (app.fullscreened)?Gdk.Screen.height ():
                                                   this.get_stage ().height;
-                    this.animate (Clutter.AnimationMode.EASE_OUT_QUAD, 1000, y:y2);
+                    this.save_easing_state();
+		        	this.set_easing_duration(1000);
+		        	this.set_easing_mode(Clutter.AnimationMode.EASE_OUT_QUAD);
+		        	this.set_y(y2);
+		        	this.restore_easing_state();
                 }
                 this._hidden = value;
             }

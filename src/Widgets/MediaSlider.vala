@@ -21,7 +21,7 @@ namespace gomovie.Widgets{
 
         private Clutter.CairoTexture bar;
 
-        private const int BAR_HEIGHT = 8;
+        private /*const*/ int BAR_HEIGHT = 8;
 
         /*the mouse is currently on the controls*/
         public bool mouse_grabbed = false;
@@ -126,9 +126,18 @@ namespace gomovie.Widgets{
              */
             //move preview
             this.enter_event.connect ( (e) => {
-                this.preview.animate (Clutter.AnimationMode.EASE_OUT_ELASTIC, 800,
-                    scale_x:1.0, scale_y:1.0);
-                preview_bg.animate (Clutter.AnimationMode.EASE_OUT_QUAD, 500, opacity:240);
+                this.preview.save_easing_state();
+	        	this.preview.set_easing_duration(800);
+	        	this.preview.set_easing_mode(Clutter.AnimationMode.EASE_OUT_QUAD);
+	        	this.preview.set_scale(1.0, 1.0);
+	        	this.preview.restore_easing_state();
+        	
+        		preview_bg.save_easing_state();
+	        	preview_bg.set_easing_duration(500);
+	        	preview_bg.set_easing_mode(Clutter.AnimationMode.EASE_OUT_QUAD);
+	        	preview_bg.set_opacity(240);
+	        	preview_bg.restore_easing_state();
+	        	
                 this.preview.playing = true;
                 //this.get_stage ().cursor_visible = !settings.hide_mouse_on_popover;
                 this.mouse_grabbed = true;
@@ -148,10 +157,19 @@ namespace gomovie.Widgets{
                 this.preview.progress = x / this.width;
                 return true;
             });
-            this.leave_event.connect ( (e) => {
-                this.preview.animate (Clutter.AnimationMode.EASE_OUT_QUAD, 150,
-                    scale_x:0.0, scale_y:0.0);
-                preview_bg.animate (Clutter.AnimationMode.EASE_OUT_QUAD, 150, opacity:0);
+            this.leave_event.connect ( (e) => {               
+                this.preview.save_easing_state();
+	        	this.preview.set_easing_duration(150);
+	        	this.preview.set_easing_mode(Clutter.AnimationMode.EASE_OUT_QUAD);
+	        	this.preview.set_scale(0.0, 0.0);
+	        	this.preview.restore_easing_state();
+        	
+        		preview_bg.save_easing_state();
+	        	preview_bg.set_easing_duration(150);
+	        	preview_bg.set_easing_mode(Clutter.AnimationMode.EASE_OUT_QUAD);
+	        	preview_bg.set_opacity(0);
+	        	preview_bg.restore_easing_state();
+	        	
                 this.preview.playing = false;
                 this.get_stage ().cursor_visible = true;
                 this.mouse_grabbed = false;

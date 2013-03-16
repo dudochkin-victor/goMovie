@@ -76,16 +76,24 @@ namespace gomovie.Widgets{
             this.add_child(this.exit);
 
             this.y = this.height;
-            this.x = Gdk.Screen.get_default ().width () - this.width - 30;
+            this.x = Gdk.Screen.width () - this.width - 30;
         }
 
         public void toggle (bool show) {
             if (show) {
-                this.animate (Clutter.AnimationMode.EASE_OUT_QUAD, 400, y:0.0f);
+                this.save_easing_state();
+            	this.set_easing_duration(400);
+            	this.set_easing_mode(Clutter.AnimationMode.EASE_OUT_QUAD);
+            	this.set_y(0.0f);
+            	this.restore_easing_state();
                 this.show ();
             }else if (this.y != this.height) {
-                var a = this.animate (Clutter.AnimationMode.EASE_OUT_QUAD, 400, y:this.height);
-                a.completed.connect ( () => {
+                this.save_easing_state();
+            	this.set_easing_duration(400);
+            	this.set_easing_mode(Clutter.AnimationMode.EASE_OUT_QUAD);
+            	this.set_y(this.height);
+            	this.restore_easing_state();
+            	this.transitions_completed.connect ( () => {
                     this.hide ();
                 });
             }
