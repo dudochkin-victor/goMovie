@@ -10,11 +10,19 @@ namespace gomovie.Widgets{
             this.reactive = true;
             this.opacity = 255;
             this.enter_event.connect ( () => {
-                this.animate (Clutter.AnimationMode.EASE_OUT_QUAD, 200, opacity:170);
+                this.save_easing_state();
+	        	this.set_easing_duration(200);
+	        	this.set_easing_mode(Clutter.AnimationMode.EASE_OUT_QUAD);
+	        	this.set_opacity(170);
+	        	this.restore_easing_state();
                 return true;
             });
             this.leave_event.connect ( () => {
-                this.animate (Clutter.AnimationMode.EASE_OUT_QUAD, 200, opacity:255);
+                this.save_easing_state();
+	        	this.set_easing_duration(200);
+	        	this.set_easing_mode(Clutter.AnimationMode.EASE_OUT_QUAD);
+	        	this.set_opacity(255);
+	        	this.restore_easing_state();
                 return true;
             });
 

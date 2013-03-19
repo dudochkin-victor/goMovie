@@ -871,8 +871,8 @@ namespace gomovie {
             }
 
             this.controls.width = stage.width;
-            if (this.controls.get_animation () != null)
-            	this.controls.detach_animation ();
+            if (this.controls.get_transition ("y") != null)
+            	this.controls.remove_all_transitions ();
             this.controls.y = (this.controls.hidden)?stage.height:stage.height - controls.height;
 
             if (this.fullscreened) {

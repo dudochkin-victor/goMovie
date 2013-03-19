@@ -36,7 +36,7 @@ namespace gomovie.Widgets{
             this.preview.audio_volume  = 0.0;
             this.preview.scale_x       = 0.0;
             this.preview.scale_y       = 0.0;
-            this.preview.scale_gravity = Clutter.Gravity.CENTER;
+            this.preview.set_pivot_point(0.5f, 0.5f);
             this.preview.height =  90.0f;
             this.preview.width  =  120.0f;
             this.preview.y      = -105.0f;

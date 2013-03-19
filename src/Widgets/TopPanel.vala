@@ -14,10 +14,18 @@ namespace gomovie.Widgets{
             set {
                 if (_hidden && !value){
                     float y2 = 0.0f;
-                    this.animate (Clutter.AnimationMode.EASE_OUT_QUAD, 400, y:y2);
+                    this.save_easing_state();
+	            	this.set_easing_duration(400);
+	            	this.set_easing_mode(Clutter.AnimationMode.EASE_OUT_QUAD);
+	            	this.set_y(y2);
+	            	this.restore_easing_state();
                 }else if (!_hidden && value){
                     float y2 = -this.height;
-                    this.animate (Clutter.AnimationMode.EASE_OUT_QUAD, 1000, y:y2);
+                    this.save_easing_state();
+	            	this.set_easing_duration(1000);
+	            	this.set_easing_mode(Clutter.AnimationMode.EASE_OUT_QUAD);
+	            	this.set_y(y2);
+	            	this.restore_easing_state();
                 }
                 this._hidden = value;
             }
